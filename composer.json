@@ -1,0 +1,15 @@
+{
+  "name": "chezzy/scan-sample",
+  "description": "scan url",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "chezzy"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^5.3",
+    "league/csv": "^7.2"
+  }
+}
