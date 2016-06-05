@@ -1,15 +1,32 @@
 {
   "name": "chezzy/scan-sample",
-  "description": "scan url",
-  "minimum-stability": "stable",
-  "license": "proprietary",
+  "description": "Scan URLs from a CSV file and report inaccessible URLs",
+  "keywords": ["url", "scanner", "csv"],
+  "homepage": "http://example.com",
+  "license": "MIT",
   "authors": [
     {
-      "name": "chezzy"
+      "name": "Andrew Bibik",
+      "homepage": "https://github.com/chezzy",
+      "role": "Developer"
     }
   ],
+  "support": {
+    "email": "help@example.com"
+  },
   "require": {
-    "guzzlehttp/guzzle": "^5.3",
+    "php" : ">=5.4.0",
+    "guzzlehttp/guzzle": "^5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3"
+  },
+  "suggest": {
     "league/csv": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
   }
 }
